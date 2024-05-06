@@ -19,9 +19,9 @@ header{
 }
 
 .logo{
- display: flexbox;
- height: auto;
- width: 20px;
+    display: grid;
+    margin-right: 15px;
+    width: 50px;
 }
 
 .left-side-menu{ 
@@ -59,6 +59,43 @@ nav, ul, li, a{
     background-color: blue;
     width: 90%;
     align-self: center;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    
+    display: grid;
+    place-items: center;
+}
+
+.room .grid{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.room img{
+    width: 800px;
+    height: 100%;
+    display: inline-block; 
+    margin-right: 10px; 
+    vertical-align: top;
+}
+
+.room .box{
+    box-shadow: 0 13px 43px 0 rgb(37 46 89/10%);
+}
+
+
+.content_grid{
+    overflow: hidden;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    height: 80vh; 
+    margin: 40px;
 }
 
 

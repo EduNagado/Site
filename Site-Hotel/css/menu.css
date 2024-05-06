@@ -78,7 +78,8 @@ nav, ul, li, a{
 }
 
 .select-image{
-max-width: 400px;
+    height:200 px;
+    width: 200px;
 }
 
 .select-image, img{
