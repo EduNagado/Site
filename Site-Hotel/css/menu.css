@@ -36,7 +36,10 @@ nav, ul, li{
 
 nav, ul, li, a{
  text-decoration: none;
- color: aqua;
+}
+
+.color{
+    color: rgb(96, 218, 218);
 }
 
 .right-side-menu{
