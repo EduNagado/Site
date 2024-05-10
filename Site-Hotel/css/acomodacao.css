@@ -10,56 +10,76 @@ header{
     flex-direction:column ;
 
 }
-.Acomodacao{
+/*Sessão menu*/
+.menu{
     display: flex;
     justify-content: space-between;
-    align-items:center ;
+    align-items:center;
     padding: 0 5%;
     height: 85px;
+    border-bottom: 2px solid blue;
+    
 }
-
-.logo{
-    display: grid;
-    margin-right: 15px;
-    width: 50px;
-}
-
-.left-side-menu{ 
- display: flex;
- gap: 50px;
- 
-}
-
-nav, ul, li{ 
- display: inline-block;
- margin-right: 35px;
-}
-
-
-nav, ul, li, a{ 
- text-decoration: none;
-}
-
-.color{ 
-    color: rgb(96, 218, 218);
-}
-
-.right-side-menu{ 
- display: flex;
- align-items: center;
- gap: 20px;
-}
-
-.icon-avatar img{ 
-   width: 40px; 
-}
-
-.line{ 
+.left-top-menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+   }
+.line{
     height: 1px;
     background-color: blue;
     width: 90%;
     align-self: center;
 }
+/*Ajuste Logo*/
+.logo{
+    display: grid;
+    margin-right: 15px;
+    width: 50px;
+}
+img{
+    width: 100%;
+    border-radius:10px ;
+   }
+   
+
+/*Menu navegação*/
+nav, ul, li{
+ display: inline-block;
+ margin-right: 35px;
+}
+nav, ul, li, a{
+ text-decoration: none;
+ color: rgb(99, 99, 99);
+}
+nav, ul, li, a:hover{
+ color: rgb(96, 218, 218);
+}
+.color{
+    color: rgb(96, 218, 218);
+}
+/*Sessão carrinho e usuário*/
+.right-top-menu{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100px;
+ height: 100%;
+ 
+}
+.right-top-menu img{
+    width:80% ;
+   }
+.right-top-menu .carrinho a{
+    margin: 10px;
+    height: 80%;
+    width: 80%;
+}
+
+.icon-avatar img{
+   width: 40px; 
+}
+
 
 .flex1{
     display: flex;
