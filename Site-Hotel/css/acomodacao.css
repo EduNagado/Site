@@ -92,30 +92,43 @@ nav, ul, li, a:hover{
     place-items: center;
 }
 
-.room .grid{
-    grid-template-columns: repeat(3, 1fr);
+.room {
+    padding: 40px 0;
+    text-align: center;
 }
 
-.room img{
-    width: 800px;
-    height: 100%;
-    display: inline-block; 
-    margin-right: 10px; 
-    vertical-align: top;
+.content_grid {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto; 
+    max-width: 1200px; 
 }
 
-.room .box{
+.box {
+    width: 45%; 
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 0 13px 43px 0 rgb(37 46 89/10%);
 }
 
-
-.content_grid{
-    overflow: hidden;
-    display: flex;
-    align-items: center; 
-    justify-content: space-between; 
-    height: 80vh; 
-    margin: 40px;
+.img {
+    width: 100%;
 }
 
+.text {
+    padding-top: 20px;
+}
 
+/* Ajuste nas imagens dos quartos */
+.room img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.text h3 {
+    margin-bottom: 10px;
+}
+
+.text p {
+    margin-bottom: 15px;
+}
